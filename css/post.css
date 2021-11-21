@@ -1,0 +1,27 @@
+.post-container {
+    width: 90%;
+    margin: auto;
+}
+.main-title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    padding: 50px 0;
+}
+.postimg {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.postimg img {
+    width: 100%;
+    height: 100%;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-login {
+    color: #adb5bd;
+    text-align: right;
+    padding-right: 30px;
+}

@@ -1,0 +1,18 @@
+<form class="p-3 col-sm-11" action="/post" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label for="title" class="form-label">Заголовок статьи</label>
+        <input type="text" class="form-control" id="title" name="title">
+    </div>
+    <div class="mb-3">
+        <label for="post" class="form-label">Изображение</label>
+        <input name="post" class="form-control form-control-sm" id="post" type="file">
+    </div>
+    <div class="mb-3">
+        <label for="description">Описание</label>
+        <textarea class="form-control" name="description" id="description" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+        <span style="color: red">$error</span>
+    </div>
+    <button type="submit" class="btn btn-outline-info">Добавить</button>
+</form>
